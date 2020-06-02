@@ -1,0 +1,207 @@
+
+/* for mobile */
+@media all and (max-width: 425px) {
+    header{
+        flex: none;
+        padding-top: 10%;
+        padding-left: 11%;
+        height: 20rem;
+        flex-wrap:wrap;
+    }
+    .title{
+        font: Bold 18px/20px Helvetica;   
+        width: 39%; 
+    }
+    .title p{
+        display: inline-block;
+        width: 100%;
+    }
+    .donate{
+        width: 100%;
+    }
+    .link{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40%;
+    }
+    .button1{
+        width:95%;
+        margin: 0.75% 0;
+        padding: 4%;
+        font: Bold 17px/20px Helvetica;
+    }
+    /* ************header********** */
+    .container1{
+        flex-direction: column-reverse;
+    }
+    .stop-image{
+        margin: 0;
+        width: 55%; 
+    }
+    .textbox{
+        background:white;
+        width: 100%;
+    }
+    .rectangle1{
+        margin-left: 35%;
+        margin-top: -3%;
+    }
+    #text2{
+        text-align: center;
+        font: Bold 22px/28px Helvetica;
+    }
+    #text3{
+        text-align: center;
+        margin: 5%;
+    }
+    /* ************container1************ */
+    .container2{
+        height: 20rem;
+    }
+    .takeAction{
+        margin-left: 38%;
+    }
+    .tabletext{
+        flex: none;
+        flex-wrap: wrap;
+    }
+    .container3{
+        height: 150rem;
+    }
+    .whatwedo{
+        margin-top: 11%;
+        margin-left: 35%;
+    }
+    .box-container{
+        flex: none;
+        height: 110rem;       
+        flex-direction: column;    
+    }
+    .box{
+        flex: none;
+        width: 100%;
+        display: flex;        
+        padding-right: 2.5rem;
+        flex-direction: column;
+    }
+    .text-margin{
+        margin-top: 7%;
+      }
+    .textbox1 p{
+        text-align: center;
+        font: Bold 22px/28px Helvetica;
+    }
+    .btn-button2{
+        margin: 0;
+        margin-top: 8%;
+    }
+    .image img{
+        width: 100%;
+    }
+    footer{
+        height: 30rem;
+    }
+    .footer-conatiner{
+        flex-flow:  wrap;
+      }
+}
+
+/* for tablet */
+@media all and (min-width:426px) and (max-width: 768px) {
+    
+    header{
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+    .title{
+        flex: none; 
+        width: 210px;   
+        /* order: 1;   */
+    }
+    .link{
+        flex: none;
+        order: 3;
+    }
+    .donate{
+        order: 2;
+        flex:none;
+    }
+    .button1{
+        padding: 10px;
+    }
+    /* ***********Header********** */
+    .container1{
+        flex-direction: column-reverse;
+    }
+    .stop-image{
+        margin: 0;
+        width: 35%;
+    }
+    .textbox{
+        width: 100%;
+    }
+    #text2{
+        font: Bold 36px/46px Helvetica;
+    }
+    #text3{
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    /* **********container1********** */
+    .container2{
+        height: 18rem;
+    }
+    .takeAction{
+        margin-left: 42%;
+    }
+    .tabletext{
+        flex: none;
+        flex-wrap: wrap;
+    }
+    /* **********container2********** */
+
+    .container3{
+        height: 140rem;
+    }
+    .textbox1 p{
+        font: Bold 32px/42px Helvetica;
+    }
+    .box-container{
+        height: 90rem;
+        flex-direction: column;
+    }    
+    .box{
+        padding-right: 2.5rem;
+        width: 100%;
+        display: flex;
+    }
+    .image{
+        flex: 2;
+    }
+    .image img{
+        width: 100%;
+    }
+    .text-margin{
+        flex: 1;
+        margin:0;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+      }
+      .text-margin h2{
+        font: Bold 22px/28px Helvetica;
+      }
+    .btn-button2{
+        margin-left: -9rem;
+        margin-top: -2rem;
+      }
+
+      /* ***********container3********* */
+    .footer-conatiner{
+        /* flex-flow: row; */
+        flex-wrap: wrap;
+      }
+}
+
+
+  
