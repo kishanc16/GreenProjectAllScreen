@@ -67,7 +67,7 @@
     }
     /* ***********container2************ */
     .container3{
-        height: 155rem;
+        height: 150rem;
     }
     .whatwedo{
         margin-top: 11%;
@@ -75,7 +75,7 @@
     }
     .box-container{
         flex: none;
-        height: 110rem;       
+        height: 115rem;       
         flex-direction: column;    
     }
     .box{
