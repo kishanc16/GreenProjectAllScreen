@@ -56,7 +56,7 @@
     }
     /* ************container1************ */
     .container2{
-        height: 20rem;
+        height: 23rem;
     }
     .takeAction{
         margin-left: 38%;
@@ -65,8 +65,9 @@
         flex: none;
         flex-wrap: wrap;
     }
+    /* ***********container2************ */
     .container3{
-        height: 150rem;
+        height: 155rem;
     }
     .whatwedo{
         margin-top: 11%;
@@ -99,7 +100,7 @@
         width: 100%;
     }
     footer{
-        height: 30rem;
+        height: 35rem;
     }
     .footer-conatiner{
         flex-flow:  wrap;
